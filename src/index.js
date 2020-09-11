@@ -5,8 +5,6 @@ import './index.css';
 
 const EditableContext = React.createContext();
 
-const { Column, ColumnGroup } = Table;
-
 const EditableRow= ({ index, ...props}) => {
   const [form] = Form.useForm();
   return(
